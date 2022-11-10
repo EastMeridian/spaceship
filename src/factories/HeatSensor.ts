@@ -1,4 +1,4 @@
-import { EventManager } from "events";
+import { EventManager } from "event";
 
 export abstract class HeatSensor {
   static HEAT_DETECTED = "HEAT_DETECTED";

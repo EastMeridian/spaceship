@@ -1,4 +1,4 @@
-import { EventManager } from "events";
+import { EventManager } from "event";
 import { HeatSensor } from "./HeatSensor";
 import { RadarSensor } from "./RadarSensor";
 

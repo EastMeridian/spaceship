@@ -1,4 +1,4 @@
-import { EventManager } from "events";
+import { EventManager } from "event";
 import { Factory } from "../factory";
 import { HeatSensor } from "../HeatSensor";
 import { VladofHeatSensor } from "./VladofHeatSensor";

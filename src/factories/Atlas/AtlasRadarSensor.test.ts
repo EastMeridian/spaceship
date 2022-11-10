@@ -1,4 +1,4 @@
-import { ShipEventManager } from "events";
+import { ShipEventManager } from "event";
 import { RadarSensor } from "factories/RadarSensor";
 import { AtlasRadarSensor } from "./AltlasRadarSensor";
 

@@ -1,4 +1,4 @@
-import { EventManager } from "events";
+import { EventManager } from "event";
 
 export abstract class RadarSensor {
   static MOTION_DETECTED = "MOTION_DETECTED";

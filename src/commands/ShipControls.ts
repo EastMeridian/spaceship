@@ -1,5 +1,5 @@
 import { Missile, Shield } from "defense";
-import { Observer } from "events";
+import { Observer } from "event";
 import { TurnOnShieldCommand } from "./TurnOnShield";
 import { Command } from "./Command";
 import { TurnOffShieldCommand } from "./TurnOffShield";

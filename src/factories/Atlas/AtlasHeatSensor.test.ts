@@ -1,4 +1,4 @@
-import { ShipEventManager } from "events";
+import { ShipEventManager } from "event";
 import { HeatSensor } from "factories/HeatSensor";
 import { AtlasHeatSensor } from "./AtlasHeatSensor";
 

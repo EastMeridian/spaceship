@@ -2,7 +2,7 @@ import { Missile, Shield } from "defense";
 import { ShipControls } from "commands/ShipControls";
 import { VladofFactory } from "factories";
 import { AtlasFactory } from "factories/Atlas/AtlasFactory";
-import { ShipEventManager } from "events";
+import { ShipEventManager } from "event";
 import { RadarSensor } from "factories/RadarSensor";
 import { HeatSensor } from "factories/HeatSensor";
 
