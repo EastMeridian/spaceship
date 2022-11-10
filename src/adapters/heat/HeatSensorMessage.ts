@@ -1,0 +1,5 @@
+export class HeatSensorMessage {
+  sendSpecific(message: string) {
+    return message.split("").reverse().join(""); // message is unreadable
+  }
+}
