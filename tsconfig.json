@@ -8,5 +8,9 @@
     "outDir": "dist",
     "baseUrl": "./src"
   },
-  "lib": ["es2015"]
+  "lib": ["es2015"],
+  "exclude": ["*/**/*.test.ts"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }
