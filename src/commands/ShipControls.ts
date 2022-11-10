@@ -26,7 +26,7 @@ export class ShipControls implements Observer {
     }
   }
 
-  public update(data: any): void {
+  public update(data?: any): void {
     console.log("Ship controls received: ", data);
 
     if (this.currentCommand !== "turnOnShield") {
