@@ -1,4 +1,4 @@
-import { ShipControls } from "./ShipControls";
+import { ShipControls } from "commands/ShipControls";
 
 describe("ShipControls", () => {
   const turnOn = jest.fn();

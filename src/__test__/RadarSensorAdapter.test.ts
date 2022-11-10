@@ -1,5 +1,5 @@
-import { RadarSensorAdapter } from "./RadarSensorAdapter";
-import { RadarSensorMessage } from "./RadarSensorMessage";
+import { RadarSensorAdapter } from "adapters/radars/RadarSensorAdapter";
+import { RadarSensorMessage } from "adapters/radars/RadarSensorMessage";
 
 const TEXT = "RadarSensorMessage(An enemy detected)";
 

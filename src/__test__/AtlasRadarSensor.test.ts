@@ -1,6 +1,6 @@
 import { ShipEventManager } from "event";
 import { RadarSensor } from "factories/RadarSensor";
-import { AtlasRadarSensor } from "./AltlasRadarSensor";
+import { AtlasRadarSensor } from "../factories/Atlas/AltlasRadarSensor";
 
 describe("AltasRadarSensor", () => {
   it("should send an event manager message", () => {

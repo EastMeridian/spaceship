@@ -1,4 +1,4 @@
-import { ShipEventManager } from "./EventManager";
+import { ShipEventManager } from "event/EventManager";
 
 const EVENT_A = "EVENT_A";
 const EVENT_B = "EVENT_B";

@@ -1,6 +1,6 @@
 import { ShipEventManager } from "event";
 import { HeatSensor } from "factories/HeatSensor";
-import { AtlasHeatSensor } from "./AtlasHeatSensor";
+import { AtlasHeatSensor } from "../factories/Atlas/AtlasHeatSensor";
 
 describe("AltasHeatSensor", () => {
   it("should send an event manager message", () => {
