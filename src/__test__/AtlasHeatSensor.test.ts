@@ -1,5 +1,5 @@
-import { ShipEventManager } from "event";
-import { HeatSensor } from "factories/HeatSensor";
+import { ShipEventManager } from "../event";
+import { HeatSensor } from "../factories/HeatSensor";
 import { AtlasHeatSensor } from "../factories/Atlas/AtlasHeatSensor";
 
 describe("AltasHeatSensor", () => {

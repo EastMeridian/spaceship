@@ -1,4 +1,4 @@
-import { RadarSensorMessage } from "adapters/radars/RadarSensorMessage";
+import { RadarSensorMessage } from "../adapters/radars/RadarSensorMessage";
 
 const TEXT = "An enemy detected";
 const CRYPTED_TEXT = "detceted ymene nA";
